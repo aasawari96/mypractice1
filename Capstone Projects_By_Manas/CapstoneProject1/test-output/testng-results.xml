@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="22" passed="22" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-03T12:59:19 IST" name="Regression Testing Suite" finished-at="2026-02-03T13:04:52 IST" duration-ms="333851">
+    <groups>
+    </groups>
+    <test started-at="2026-02-03T12:59:19 IST" name="EdgeTest" finished-at="2026-02-03T13:04:29 IST" duration-ms="310777">
+      <class name="testcases.Class4_AboutLink">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testcases.Class4_AboutLink@5dda768f]" started-at="2026-02-03T13:03:36 IST" name="setUp" finished-at="2026-02-03T13:04:01 IST" duration-ms="24759" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkAboutLinks()[pri:0, instance:testcases.Class4_AboutLink@5dda768f]" started-at="2026-02-03T13:04:01 IST" name="checkAboutLinks" finished-at="2026-02-03T13:04:04 IST" duration-ms="3234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAboutLinks -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:testcases.Class4_AboutLink@5dda768f]" started-at="2026-02-03T13:04:04 IST" name="closeWindow" finished-at="2026-02-03T13:04:05 IST" duration-ms="429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- testcases.Class4_AboutLink -->
+      <class name="testcases.Class3_DataDrivenFactorial">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testcases.Class3_DataDrivenFactorial@1ce24091]" started-at="2026-02-03T13:00:18 IST" name="setUp" finished-at="2026-02-03T13:00:41 IST" duration-ms="22324" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="varifyFactorial(int,java.lang.String)[pri:0, instance:testcases.Class3_DataDrivenFactorial@1ce24091]" started-at="2026-02-03T13:00:41 IST" name="varifyFactorial" data-provider="factorialData" finished-at="2026-02-03T13:00:42 IST" duration-ms="1705" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[The factorial of 4 is: 24]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varifyFactorial -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:testcases.Class3_DataDrivenFactorial@1ce24091]" started-at="2026-02-03T13:00:42 IST" name="closeWindow" finished-at="2026-02-03T13:00:45 IST" duration-ms="2472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testcases.Class3_DataDrivenFactorial@1ce24091]" started-at="2026-02-03T13:00:45 IST" name="setUp" finished-at="2026-02-03T13:01:08 IST" duration-ms="22835" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="varifyFactorial(int,java.lang.String)[pri:0, instance:testcases.Class3_DataDrivenFactorial@1ce24091]" started-at="2026-02-03T13:01:08 IST" name="varifyFactorial" data-provider="factorialData" finished-at="2026-02-03T13:01:09 IST" duration-ms="1192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[The factorial of 5 is: 120]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varifyFactorial -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:testcases.Class3_DataDrivenFactorial@1ce24091]" started-at="2026-02-03T13:01:09 IST" name="closeWindow" finished-at="2026-02-03T13:01:11 IST" duration-ms="1930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testcases.Class3_DataDrivenFactorial@1ce24091]" started-at="2026-02-03T13:01:11 IST" name="setUp" finished-at="2026-02-03T13:01:35 IST" duration-ms="23926" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="varifyFactorial(int,java.lang.String)[pri:0, instance:testcases.Class3_DataDrivenFactorial@1ce24091]" started-at="2026-02-03T13:01:35 IST" name="varifyFactorial" data-provider="factorialData" finished-at="2026-02-03T13:01:36 IST" duration-ms="1156" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[The factorial of 6 is: 720]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varifyFactorial -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:testcases.Class3_DataDrivenFactorial@1ce24091]" started-at="2026-02-03T13:01:36 IST" name="closeWindow" finished-at="2026-02-03T13:01:39 IST" duration-ms="3732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testcases.Class3_DataDrivenFactorial@1ce24091]" started-at="2026-02-03T13:01:39 IST" name="setUp" finished-at="2026-02-03T13:02:01 IST" duration-ms="21728" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="varifyFactorial(int,java.lang.String)[pri:0, instance:testcases.Class3_DataDrivenFactorial@1ce24091]" started-at="2026-02-03T13:02:01 IST" name="varifyFactorial" data-provider="factorialData" finished-at="2026-02-03T13:02:03 IST" duration-ms="1511" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[The factorial of 7 is: 5040]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varifyFactorial -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:testcases.Class3_DataDrivenFactorial@1ce24091]" started-at="2026-02-03T13:02:03 IST" name="closeWindow" finished-at="2026-02-03T13:02:04 IST" duration-ms="1064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testcases.Class3_DataDrivenFactorial@1ce24091]" started-at="2026-02-03T13:02:04 IST" name="setUp" finished-at="2026-02-03T13:02:28 IST" duration-ms="24474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="varifyFactorial(int,java.lang.String)[pri:0, instance:testcases.Class3_DataDrivenFactorial@1ce24091]" started-at="2026-02-03T13:02:28 IST" name="varifyFactorial" data-provider="factorialData" finished-at="2026-02-03T13:02:29 IST" duration-ms="1022" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[The factorial of 8 is: 40320]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varifyFactorial -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:testcases.Class3_DataDrivenFactorial@1ce24091]" started-at="2026-02-03T13:02:29 IST" name="closeWindow" finished-at="2026-02-03T13:02:49 IST" duration-ms="19800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testcases.Class3_DataDrivenFactorial@1ce24091]" started-at="2026-02-03T13:02:49 IST" name="setUp" finished-at="2026-02-03T13:03:15 IST" duration-ms="26062" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="varifyFactorial(int,java.lang.String)[pri:0, instance:testcases.Class3_DataDrivenFactorial@1ce24091]" started-at="2026-02-03T13:03:15 IST" name="varifyFactorial" data-provider="factorialData" finished-at="2026-02-03T13:03:16 IST" duration-ms="914" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[The factorial of 9 is: 362880]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varifyFactorial -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:testcases.Class3_DataDrivenFactorial@1ce24091]" started-at="2026-02-03T13:03:16 IST" name="closeWindow" finished-at="2026-02-03T13:03:19 IST" duration-ms="2602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testcases.Class3_DataDrivenFactorial@1ce24091]" started-at="2026-02-03T13:03:19 IST" name="setUp" finished-at="2026-02-03T13:03:34 IST" duration-ms="15169" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="varifyFactorial(int,java.lang.String)[pri:0, instance:testcases.Class3_DataDrivenFactorial@1ce24091]" started-at="2026-02-03T13:03:34 IST" name="varifyFactorial" data-provider="factorialData" finished-at="2026-02-03T13:03:35 IST" duration-ms="918" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[The factorial of 10 is: 3628800]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varifyFactorial -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:testcases.Class3_DataDrivenFactorial@1ce24091]" started-at="2026-02-03T13:03:35 IST" name="closeWindow" finished-at="2026-02-03T13:03:36 IST" duration-ms="1385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- testcases.Class3_DataDrivenFactorial -->
+      <class name="testcases.Class2_PlaceholderTitleURL">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testcases.Class2_PlaceholderTitleURL@fbd1f6]" started-at="2026-02-03T12:59:47 IST" name="setUp" finished-at="2026-02-03T13:00:17 IST" duration-ms="29939" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyPlaceholderTitleURL()[pri:0, instance:testcases.Class2_PlaceholderTitleURL@fbd1f6]" started-at="2026-02-03T13:00:17 IST" name="verifyPlaceholderTitleURL" finished-at="2026-02-03T13:00:17 IST" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPlaceholderTitleURL -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:testcases.Class2_PlaceholderTitleURL@fbd1f6]" started-at="2026-02-03T13:00:17 IST" name="closeWindow" finished-at="2026-02-03T13:00:18 IST" duration-ms="687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- testcases.Class2_PlaceholderTitleURL -->
+      <class name="testcases.Class1_UIValidation">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testcases.Class1_UIValidation@55fe41ea]" started-at="2026-02-03T12:59:19 IST" name="setUp" finished-at="2026-02-03T12:59:44 IST" duration-ms="25134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUIElements()[pri:0, instance:testcases.Class1_UIValidation@55fe41ea]" started-at="2026-02-03T12:59:44 IST" name="verifyUIElements" finished-at="2026-02-03T12:59:45 IST" duration-ms="828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUIElements -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:testcases.Class1_UIValidation@55fe41ea]" started-at="2026-02-03T12:59:45 IST" name="closeWindow" finished-at="2026-02-03T12:59:47 IST" duration-ms="2769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- testcases.Class1_UIValidation -->
+      <class name="testcases.Class5_BugScenario">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testcases.Class5_BugScenario@7a8c8dcf]" started-at="2026-02-03T13:04:05 IST" name="setUp" finished-at="2026-02-03T13:04:28 IST" duration-ms="23240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyNegativeNumberBug()[pri:0, instance:testcases.Class5_BugScenario@7a8c8dcf]" started-at="2026-02-03T13:04:28 IST" name="VerifyNegativeNumberBug" finished-at="2026-02-03T13:04:28 IST" duration-ms="388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyNegativeNumberBug -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:testcases.Class5_BugScenario@7a8c8dcf]" started-at="2026-02-03T13:04:28 IST" name="closeWindow" finished-at="2026-02-03T13:04:29 IST" duration-ms="1081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- testcases.Class5_BugScenario -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2026-02-03T12:59:19 IST" name="ChromeTest" finished-at="2026-02-03T13:04:52 IST" duration-ms="333851">
+      <class name="testcases.Class4_AboutLink">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testcases.Class4_AboutLink@3b69e7d1]" started-at="2026-02-03T13:04:04 IST" name="setUp" finished-at="2026-02-03T13:04:28 IST" duration-ms="23606" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkAboutLinks()[pri:0, instance:testcases.Class4_AboutLink@3b69e7d1]" started-at="2026-02-03T13:04:28 IST" name="checkAboutLinks" finished-at="2026-02-03T13:04:29 IST" duration-ms="1665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAboutLinks -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:testcases.Class4_AboutLink@3b69e7d1]" started-at="2026-02-03T13:04:29 IST" name="closeWindow" finished-at="2026-02-03T13:04:30 IST" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- testcases.Class4_AboutLink -->
+      <class name="testcases.Class3_DataDrivenFactorial">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testcases.Class3_DataDrivenFactorial@7586beff]" started-at="2026-02-03T13:00:45 IST" name="setUp" finished-at="2026-02-03T13:01:07 IST" duration-ms="22710" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="varifyFactorial(int,java.lang.String)[pri:0, instance:testcases.Class3_DataDrivenFactorial@7586beff]" started-at="2026-02-03T13:01:07 IST" name="varifyFactorial" data-provider="factorialData" finished-at="2026-02-03T13:01:09 IST" duration-ms="1257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[The factorial of 4 is: 24]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varifyFactorial -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:testcases.Class3_DataDrivenFactorial@7586beff]" started-at="2026-02-03T13:01:09 IST" name="closeWindow" finished-at="2026-02-03T13:01:11 IST" duration-ms="2069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testcases.Class3_DataDrivenFactorial@7586beff]" started-at="2026-02-03T13:01:11 IST" name="setUp" finished-at="2026-02-03T13:01:35 IST" duration-ms="23939" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="varifyFactorial(int,java.lang.String)[pri:0, instance:testcases.Class3_DataDrivenFactorial@7586beff]" started-at="2026-02-03T13:01:35 IST" name="varifyFactorial" data-provider="factorialData" finished-at="2026-02-03T13:01:36 IST" duration-ms="1127" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[The factorial of 5 is: 120]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varifyFactorial -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:testcases.Class3_DataDrivenFactorial@7586beff]" started-at="2026-02-03T13:01:36 IST" name="closeWindow" finished-at="2026-02-03T13:01:39 IST" duration-ms="3145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testcases.Class3_DataDrivenFactorial@7586beff]" started-at="2026-02-03T13:01:39 IST" name="setUp" finished-at="2026-02-03T13:02:01 IST" duration-ms="22285" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="varifyFactorial(int,java.lang.String)[pri:0, instance:testcases.Class3_DataDrivenFactorial@7586beff]" started-at="2026-02-03T13:02:01 IST" name="varifyFactorial" data-provider="factorialData" finished-at="2026-02-03T13:02:03 IST" duration-ms="1417" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[The factorial of 6 is: 720]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varifyFactorial -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:testcases.Class3_DataDrivenFactorial@7586beff]" started-at="2026-02-03T13:02:03 IST" name="closeWindow" finished-at="2026-02-03T13:02:03 IST" duration-ms="849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testcases.Class3_DataDrivenFactorial@7586beff]" started-at="2026-02-03T13:02:03 IST" name="setUp" finished-at="2026-02-03T13:02:28 IST" duration-ms="24459" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="varifyFactorial(int,java.lang.String)[pri:0, instance:testcases.Class3_DataDrivenFactorial@7586beff]" started-at="2026-02-03T13:02:28 IST" name="varifyFactorial" data-provider="factorialData" finished-at="2026-02-03T13:02:29 IST" duration-ms="1068" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[The factorial of 7 is: 5040]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varifyFactorial -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:testcases.Class3_DataDrivenFactorial@7586beff]" started-at="2026-02-03T13:02:29 IST" name="closeWindow" finished-at="2026-02-03T13:02:36 IST" duration-ms="6669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testcases.Class3_DataDrivenFactorial@7586beff]" started-at="2026-02-03T13:02:36 IST" name="setUp" finished-at="2026-02-03T13:03:04 IST" duration-ms="28487" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="varifyFactorial(int,java.lang.String)[pri:0, instance:testcases.Class3_DataDrivenFactorial@7586beff]" started-at="2026-02-03T13:03:04 IST" name="varifyFactorial" data-provider="factorialData" finished-at="2026-02-03T13:03:05 IST" duration-ms="901" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[The factorial of 8 is: 40320]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varifyFactorial -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:testcases.Class3_DataDrivenFactorial@7586beff]" started-at="2026-02-03T13:03:05 IST" name="closeWindow" finished-at="2026-02-03T13:03:12 IST" duration-ms="6898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testcases.Class3_DataDrivenFactorial@7586beff]" started-at="2026-02-03T13:03:12 IST" name="setUp" finished-at="2026-02-03T13:03:33 IST" duration-ms="20864" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="varifyFactorial(int,java.lang.String)[pri:0, instance:testcases.Class3_DataDrivenFactorial@7586beff]" started-at="2026-02-03T13:03:33 IST" name="varifyFactorial" data-provider="factorialData" finished-at="2026-02-03T13:03:34 IST" duration-ms="933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[The factorial of 9 is: 362880]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varifyFactorial -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:testcases.Class3_DataDrivenFactorial@7586beff]" started-at="2026-02-03T13:03:34 IST" name="closeWindow" finished-at="2026-02-03T13:03:36 IST" duration-ms="1800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testcases.Class3_DataDrivenFactorial@7586beff]" started-at="2026-02-03T13:03:36 IST" name="setUp" finished-at="2026-02-03T13:04:01 IST" duration-ms="25356" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="varifyFactorial(int,java.lang.String)[pri:0, instance:testcases.Class3_DataDrivenFactorial@7586beff]" started-at="2026-02-03T13:04:01 IST" name="varifyFactorial" data-provider="factorialData" finished-at="2026-02-03T13:04:02 IST" duration-ms="1085" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[The factorial of 10 is: 3628800]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varifyFactorial -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:testcases.Class3_DataDrivenFactorial@7586beff]" started-at="2026-02-03T13:04:02 IST" name="closeWindow" finished-at="2026-02-03T13:04:04 IST" duration-ms="2094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- testcases.Class3_DataDrivenFactorial -->
+      <class name="testcases.Class2_PlaceholderTitleURL">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testcases.Class2_PlaceholderTitleURL@4c12331b]" started-at="2026-02-03T13:00:18 IST" name="setUp" finished-at="2026-02-03T13:00:40 IST" duration-ms="22179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyPlaceholderTitleURL()[pri:0, instance:testcases.Class2_PlaceholderTitleURL@4c12331b]" started-at="2026-02-03T13:00:40 IST" name="verifyPlaceholderTitleURL" finished-at="2026-02-03T13:00:41 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPlaceholderTitleURL -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:testcases.Class2_PlaceholderTitleURL@4c12331b]" started-at="2026-02-03T13:00:41 IST" name="closeWindow" finished-at="2026-02-03T13:00:45 IST" duration-ms="3957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- testcases.Class2_PlaceholderTitleURL -->
+      <class name="testcases.Class1_UIValidation">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testcases.Class1_UIValidation@47eaca72]" started-at="2026-02-03T12:59:19 IST" name="setUp" finished-at="2026-02-03T13:00:17 IST" duration-ms="58699" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUIElements()[pri:0, instance:testcases.Class1_UIValidation@47eaca72]" started-at="2026-02-03T13:00:17 IST" name="verifyUIElements" finished-at="2026-02-03T13:00:18 IST" duration-ms="377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUIElements -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:testcases.Class1_UIValidation@47eaca72]" started-at="2026-02-03T13:00:18 IST" name="closeWindow" finished-at="2026-02-03T13:00:18 IST" duration-ms="644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- testcases.Class1_UIValidation -->
+      <class name="testcases.Class5_BugScenario">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testcases.Class5_BugScenario@815b41f]" started-at="2026-02-03T13:04:30 IST" name="setUp" finished-at="2026-02-03T13:04:50 IST" duration-ms="20177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyNegativeNumberBug()[pri:0, instance:testcases.Class5_BugScenario@815b41f]" started-at="2026-02-03T13:04:50 IST" name="VerifyNegativeNumberBug" finished-at="2026-02-03T13:04:50 IST" duration-ms="441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyNegativeNumberBug -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:testcases.Class5_BugScenario@815b41f]" started-at="2026-02-03T13:04:50 IST" name="closeWindow" finished-at="2026-02-03T13:04:52 IST" duration-ms="2019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- testcases.Class5_BugScenario -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Regression Testing Suite -->
+</testng-results>

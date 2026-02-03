@@ -1,0 +1,128 @@
+Automation Testing Project
+
+Application URL: https://qainterview.pythonanywhere.com/
+
+1. Find out all the bugs in the Application
+2. Bug title, Priority
+
+Note: Qxf2 Services Page is not in the testing scope
+----------------------------------------
+
+For Automation we Need to Use: 
+
+1. Data Provider Annotation/Excel.
+2. TestNG Annotation Pre and post request
+3. Reusable method concept
+4. Page object model for locator (optional)
+5. Validation with the help of assertion/ WebdriverWait class
+
+----------------------------------------
+
+Class 1: 
+
+Validation All the necessary UI Elements are Present and Clickable (Textbox, Calculate Button, About, Terms and Condition and Privacy Link)
+@Test - isDisplayed();
+@Test - isEnabled();
+
+Class 2: 
+
+Verify the Placeholder in Textbox is = 'Enter an integer'
+Verify the Title of the page contains = 'Factorial' 
+Verify the URL contains = 'https'
+
+Class 3:
+
+Data Driven testing (4 to 10) find out the factorial and verify the result
+
+Class 4:
+
+Click on the About link and verify the total number of link is Greater than 5 and print the link name
+(Use Webdriver Wait/ Assertion)
+
+class 5:
+
+Add one scenario to automate one of the detected bug
+
+-----------------------------------------
+
+Need to create:
+
+Maven Project:
+
+
+Selenium: 4.12.0/4.27.0
+TestNG : 7.9.0
+slf4j : 2.0.16
+
+
+TextNG XML File (Regression.xml) to run all this class
+(@parameter)
+Cross browser Testing 	(Parallel = false)
+Parallel Testing	(Parralel=true)
+-----------------------------------------
+
+
+Email Recipients:
+
+To: growskillit@gmail.com
+cc: manasqa04@gmail.com
+
+Sub: Main Project_StudentName BatchName July25 Mid Batch - Trainer: Manas
+Add: GitHub Repository link
+Project Report
+
+------------------------------------------
+Note:
+What does d -> mean in Java?
+
+d -> is the start of a lambda expression.
+
+A lambda expression is just a shorter way to write a function.
+
+Think of it like:
+
+➤ "d is the input, and what comes after -> is the output."
+
+
+
+
+
+<test name="ChromeTest">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="testcases.Class1_UIValidation" />
+			<class name="testcases.Class2_PlaceholderTitleURL" />
+			<class name="testcases.Class3_DataDrivenFactorial" />
+			<class name="testcases.Class4_AboutLink" />
+			<class name="testcases.Class5_BugScenario" />
+		</classes>
+	</test>
+
+
+<test name="EdgeTest">
+		<parameter name="browser" value="edge" />
+		<classes>
+			<class name="testcases.Class1_UIValidation" />
+			<class name="testcases.Class2_PlaceholderTitleURL" />
+			<class name="testcases.Class3_DataDrivenFactorial" />
+			<class name="testcases.Class4_AboutLink" />
+			<class name="testcases.Class5_BugScenario" />
+		</classes>
+	</test>
+	
+	<test name="FirefoxTest">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="testcases.Class1_UIValidation" />
+			<class name="testcases.Class2_PlaceholderTitleURL" />
+			<class name="testcases.Class3_DataDrivenFactorial" />
+			<class name="testcases.Class4_AboutLink" />
+			<class name="testcases.Class5_BugScenario" />
+		</classes>
+	</test>
+
+
+
+
+
+
