@@ -29,6 +29,8 @@ public class AddAndUpdate {
 		System.out.println(pid);
 
 		System.out.println("**********Update Palce*******");
+		System.out.println("**********Update Palce*******");
+		System.out.println("**********Update Palce*******");
 		// Update API
 
 		String newAdd = "GrowskillIT Mumbai";
