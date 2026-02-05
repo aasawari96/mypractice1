@@ -109,6 +109,7 @@ public class QkartProject extends BaseTest {
 		// Capture product name dynamically
 		String productName = q.getracquetName();
 		System.out.println("Product Selected: " + productName);
+		System.out.println("Hello");
 
 //		// Item added 1st time
 		q.clickRacquet();
